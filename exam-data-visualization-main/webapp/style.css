@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif ;
+    background-color: #ead5be;
+}
+
+.counter-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#counter {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#increment {
+    background-color: #b483b3;
+    color: white;
+}
+
+#decrement {
+    background-color: #87bfd0;
+    color: white;
+}
+
+#reset {
+    background-color: #9fd48e;
+    color: white;
+}
